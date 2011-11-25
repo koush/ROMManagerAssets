@@ -1,0 +1,91 @@
+{
+    "registrationOffer_en_US": {
+        "offerText1": "rom",
+        "offerText2": "Sign up is easy. You won't leave this App.",
+        "headerText": "Welcome to ROM Manager!",
+        "bodyText": "Please register below to get the ROM update notification feature, a ROM Manager Premium perk. And, all banner ads will also be removed from the application! You will also be helping support ClockworkMod and further developments made to ROM Manager! Thanks for your support!\n-Koush",
+        "confirmHeader": "Thank You.",
+        "confirmBody": "Your sign-up is complete.",
+        "logoPath": "/zwwz/zwwx/zw39/1890/49388/5535/images/image_49388_70_70_11120.png",
+        "offerImagePath": "",
+        "privacyPolicyUrl": "http://www.clockworkmod.com/privacy.txt",
+        "oid": 49388,
+        "dealId": 18201,
+        "creativeId": 5535,
+        "registrationFields": {}
+    },
+    "pid": 1890,
+    "subSourceId": "",
+    "pflexadsUrl": "http://fb26ke65wwkf.pflexads.com",
+    "registrationFields": {
+        "first_name": {
+            "fieldType": "firstname",
+            "transientField": false,
+            "validations": [
+                "required"
+            ],
+            "order": 1,
+            "displayName": "First Name",
+            "type": "text"
+        },
+        "last_name": {
+            "fieldType": "lastname",
+            "transientField": false,
+            "validations": [
+                "required"
+            ],
+            "order": 2,
+            "displayName": "Last Name",
+            "type": "text"
+        },
+        "email": {
+            "fieldType": "email",
+            "transientField": false,
+            "validations": [
+                "required",
+                "email"
+            ],
+            "order": 3,
+            "displayName": "Email",
+            "type": "text"
+        },
+        "postal_code": {
+            "fieldType": "postalcode",
+            "transientField": false,
+            "validations": [
+                "required",
+                "postalcode"
+            ],
+            "order": 4,
+            "displayName": "Zip Code",
+            "type": "text"
+        },
+        "country": {
+            "optionType": "country",
+            "fieldType": "country",
+            "transientField": false,
+            "validations": [
+                "required",
+                "country"
+            ],
+            "order": 5,
+            "displayName": "Country",
+            "type": "select"
+        }
+    },
+    "registrationOffer": {
+        "offerText1": "rom",
+        "offerText2": "Sign up is easy. You won't leave this App.",
+        "headerText": "Welcome to ROM Manager!",
+        "bodyText": "Please register below to get the ROM update notification feature, a ROM Manager Premium perk. You will also be helping support ClockworkMod and further developments made to ROM Manager! Thanks for your support!\n-Koush",
+        "confirmHeader": "Thank You.",
+        "confirmBody": "Your sign-up is complete.",
+        "logoPath": "/zwwz/zwwx/zw39/1890/49388/5535/images/image_49388_70_70_11120.png",
+        "offerImagePath": "",
+        "privacyPolicyUrl": "http://www.clockworkmod.com/privacy.txt",
+        "oid": 49388,
+        "dealId": 18201,
+        "creativeId": 5535,
+        "registrationFields": {}
+    }
+}
