@@ -34,6 +34,7 @@ case "$1" in
     if [ -d /system/addon.d ]
     then
       cp $0 /system/addon.d
+      chmod 755 /system/addon.d/$(basename $0)
     fi
   ;;
 esac
