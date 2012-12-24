@@ -1,0 +1,11 @@
+ui_print("Extracting tools...\n");
+package_extract_file("unzip", "/tmp/unzip");
+package_extract_file("extract", "/tmp/extract");
+package_extract_file(".salted_hash", "/sdcard/clockworkmod/.salted_hash");
+package_extract_file("extendedcommand", "/cache/recovery/extendedcommand");
+run_program("/sbin/chmod", "755", "/tmp/unzip");
+run_program("/sbin/chmod", "755", "/tmp/extract");
+ui_print("Extracting backup...\n");
+assert(run_program("/tmp/extract"));
+ui_print("Restarting recovery to restore backup...\n");
+run_program("/sbin/killrecovery.sh");

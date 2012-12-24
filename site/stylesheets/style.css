@@ -1,0 +1,18 @@
+img.icon {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+a.backup {
+	text-wrap: none;
+	margin-bottom: 8px;
+}
+
+.backupname {
+/*   min-height: 3em; */
+}
+
+body {
+  position: relative;
+  padding-top: 60px;
+}

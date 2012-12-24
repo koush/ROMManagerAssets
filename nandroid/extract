@@ -1,0 +1,5 @@
+#!/sbin/sh
+cd /sdcard/clockworkmod
+rm -rf /sdcard/clockworkmod/backup/__BACKUP_NAME__
+/tmp/unzip -p $UPDATE_PACKAGE backup.tar | tar xv
+exit $?

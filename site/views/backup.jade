@@ -1,0 +1,8 @@
+.row
+  .span5.offset2
+    a.btn.btn-large.backup.span5(href='/api/backup/' + encodeURIComponent(backup.name) + '.zip')
+      center
+        h3
+          div.backupname=backup.name
+        h6
+          div.backupdate=backup.date_string

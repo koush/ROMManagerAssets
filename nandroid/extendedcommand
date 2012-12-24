@@ -1,0 +1,1 @@
+assert(restore_rom("/sdcard/clockworkmod/backup/__BACKUP_NAME__"));
