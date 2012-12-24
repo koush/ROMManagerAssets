@@ -8,7 +8,10 @@ $(document).ready(function() {
 			}
 			$('#backup-count').text(data.backup.length + " backups found.");
 			$.each(data.backup, function(index, backup) {
-				backup.date_string = new Date(backup.date).toLocaleString();
+				if (backup.date)
+					backup.date_string = new Date(backup.date).toLocaleString();
+				else
+					backup.date_string = '';
 				jade.render(backupTemplate, {
 					backup: backup
 				}, function(err, data) {
